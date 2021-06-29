@@ -10,7 +10,7 @@ from __future__ import absolute_import
 import sys
 from setuptools import setup, find_packages
 
-version = '2.0.0a1.dev2'
+version = '2.0.0a1.dev3'
 
 if not '2.6' <= sys.version < '3.0' and not '3.2' < sys.version:
     raise ImportError('Python version not supported')
